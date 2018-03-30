@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary"
+    tools:context="br.com.whatsappandroid.cursoandroid.whatsapp.activity.LoginActivity">
+
+    <ImageView
+        android:layout_width="@dimen/largura_logo"
+        android:layout_height="@dimen/altura_logo"
+        android:layout_gravity="center"
+        android:background="@drawable/logo" />
+
+    <EditText
+        android:id="@+id/login_nome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:textColor="@color/textColorPrimary"
+        android:hint="@string/digite_seu_nome"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:orientation="horizontal">
+
+    <EditText
+        android:id="@+id/login_cod_pais"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/cod_brasil"
+        android:textColor="@color/textColorPrimary"
+        android:inputType="number"/>
+
+    <EditText
+        android:id="@+id/login_cod_area"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/cod_estado"
+        android:textColor="@color/textColorPrimary"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/login_telefone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/telefone"
+        android:textColor="@color/textColorPrimary"
+        android:inputType="number"/>
+
+    </LinearLayout>
+    
+    <Button
+        android:id="@+id/login_bt_cadastrar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="@string/bt_cadastrar"
+        android:textColor="@color/textColorPrimary"
+        android:layout_marginTop="40dp"/>
+
+</LinearLayout>

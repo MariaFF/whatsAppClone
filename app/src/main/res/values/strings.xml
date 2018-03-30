@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">WhatsApp</string>
+    <string name="digite_seu_nome">Digite seu nome</string>
+    <string name="cod_brasil">+55</string>
+    <string name="cod_estado">(44)</string>
+    <string name="telefone">99999-9999</string>
+    <string name="bt_cadastrar">Cadastrar</string>
+    <string name="validacao">Validação</string>
+    <string name="texto_validacao">Você recebeu um SMS para a validação do seu número, digite o código de validação abaixo:</string>
+    <string name="bt_validar">Validar</string>
+    <string name="cod_validacao">Digite o código</string>
+</resources>
